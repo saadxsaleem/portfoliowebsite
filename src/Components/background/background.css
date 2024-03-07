@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+  height: 47rem;
+  padding: 0;
+}
+
+.children__Div {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.particles {
+  height: 47rem;
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    height: 75rem;
+  }
+  .particles {
+    height: 75rem;
+  }
+}

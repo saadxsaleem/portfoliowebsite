@@ -1,0 +1,84 @@
+.project__img {
+  object-fit: cover;
+  transition: all 0.4s ease-out;
+}
+
+.project__card {
+  overflow: hidden;
+  border-radius: 5px;
+}
+.project {
+  width: 90%;
+  height: 15rem;
+  display: flex;
+  overflow: hidden;
+}
+
+.project:hover {
+  cursor: pointer;
+
+  /* Apply transition for hover state */
+
+  .project__img {
+    transform: scale(1.1);
+    filter: brightness(70%);
+    transition: all 0.4s ease-out;
+  }
+  .project__description {
+    opacity: 1;
+    left: 0;
+    transition: all 0.5s ease-out;
+  }
+}
+
+.project__description {
+  position: absolute;
+  backdrop-filter: blur(10px);
+
+  height: 60%;
+  filter: brightness(130%);
+  opacity: 0;
+  bottom: 0;
+  width: 60%;
+  left: -25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 15px 0px 0px;
+
+  flex-direction: column;
+  transition: all 0.5s ease-out;
+}
+.project__title {
+  margin-top: 0;
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 0.2rem;
+  letter-spacing: 2px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.project__detail {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: black;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.project__detail__2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+/* linear-gradient(-300deg, rgba(24,27,28,1) 33%, rgba(5,4,4,1) 100%) */
