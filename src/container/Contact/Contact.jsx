@@ -136,7 +136,7 @@ const Contact = () => {
         >
           <img
             className="svg__contact"
-            srcSet="/Assets/Images/contact-img.svg"
+            src="Assets/Images/contact-img.svg"
             alt="Contactsvg"
           />
         </Grid>

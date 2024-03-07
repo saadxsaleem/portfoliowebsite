@@ -165,32 +165,20 @@ const Header = () => {
             <div className="circle__div">
               <img
                 className="svg__circle"
-                src="/Assets/Images/svgcircle-2.png"
+                src="Assets/Images/svgcircle-2.png"
                 alt=""
               />
             </div>
           </div>
           <div className="Image__div">
             <div className="img__circle__div div__js">
-              <img
-                className="img__app"
-                srcSet="/Assets/Images/node.png"
-                alt=""
-              />
+              <img className="img__app" src="Assets/Images/node.png" alt="" />
             </div>
             <div className="img__circle__div div__react">
-              <img
-                className="img__app"
-                srcSet="/Assets/Images/react.png"
-                alt=""
-              />
+              <img className="img__app" src="Assets/Images/react.png" alt="" />
             </div>
             <div className="img__circle__div div__redux">
-              <img
-                className="img__app"
-                srcSet="/Assets/Images/redux.png"
-                alt=""
-              />
+              <img className="img__app" src="Assets/Images/redux.png" alt="" />
             </div>
           </div>
         </motion.div>

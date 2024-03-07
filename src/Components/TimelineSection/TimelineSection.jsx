@@ -86,7 +86,7 @@ export default function CustomizedTimeline() {
                 aspectRatio: "3/3",
                 objectFit: "cover",
               }}
-              srcSet="/Assets/Images/mernstack.png"
+              src="Assets/Images/mernstack.png"
               alt="MernStack"
             />
           </TimelineDot>
@@ -187,7 +187,7 @@ export default function CustomizedTimeline() {
                           }}
                         >
                           <CircularProgressBar
-                            {...PropCircular(95, "/Assets/Images/mongodb3.png")}
+                            {...PropCircular(95, "Assets/Images/mongodb3.png")}
                           />
                           <p
                             style={{
@@ -218,7 +218,7 @@ export default function CustomizedTimeline() {
                           <CircularProgressBar
                             {...PropCircular(
                               85,
-                              "/Assets/Images/express.js.png"
+                              "Assets/Images/express.js.png"
                             )}
                           />
                           <p
@@ -248,7 +248,7 @@ export default function CustomizedTimeline() {
                           }}
                         >
                           <CircularProgressBar
-                            {...PropCircular(90, "/Assets/Images/react.png")}
+                            {...PropCircular(90, "Assets/Images/react.png")}
                           />
                           <p
                             style={{
@@ -277,7 +277,7 @@ export default function CustomizedTimeline() {
                           }}
                         >
                           <CircularProgressBar
-                            {...PropCircular(80, "/Assets/Images/node.png")}
+                            {...PropCircular(80, "Assets/Images/node.png")}
                           />
                           <p
                             style={{
@@ -321,7 +321,7 @@ export default function CustomizedTimeline() {
                 background: "white",
                 borderRadius: "50%",
               }}
-              srcSet="/Assets/Images/Wordpress-Shopify.png"
+              src="Assets/Images/Wordpress-Shopify.png"
               alt="API"
             />
           </TimelineDot>
@@ -420,10 +420,7 @@ export default function CustomizedTimeline() {
                           }}
                         >
                           <CircularProgressBar
-                            {...PropCircular(
-                              94,
-                              "/Assets/Images/wordpress.png"
-                            )}
+                            {...PropCircular(94, "Assets/Images/wordpress.png")}
                           />
                           <p
                             style={{
@@ -452,7 +449,7 @@ export default function CustomizedTimeline() {
                           }}
                         >
                           <CircularProgressBar
-                            {...PropCircular(86, "/Assets/Images/shopify3.png")}
+                            {...PropCircular(86, "Assets/Images/shopify3.png")}
                           />
                           <p
                             style={{
@@ -489,7 +486,7 @@ export default function CustomizedTimeline() {
                 aspectRatio: "3/3",
                 objectFit: "contain",
               }}
-              srcSet="/Assets/Images/html-css-js-icon2.png"
+              src="Assets/Images/html-css-js-icon2.png"
               alt="API"
             />
           </TimelineDot>
@@ -590,7 +587,7 @@ export default function CustomizedTimeline() {
                           }}
                         >
                           <CircularProgressBar
-                            {...PropCircular(91, "/Assets/Images/html.png")}
+                            {...PropCircular(91, "Assets/Images/html.png")}
                           />
                           <p
                             style={{
@@ -619,7 +616,7 @@ export default function CustomizedTimeline() {
                           }}
                         >
                           <CircularProgressBar
-                            {...PropCircular(85, "/Assets/Images/css.png")}
+                            {...PropCircular(85, "Assets/Images/css.png")}
                           />
                           <p
                             style={{
@@ -648,7 +645,7 @@ export default function CustomizedTimeline() {
                           }}
                         >
                           <CircularProgressBar
-                            {...PropCircular(90, "/Assets/Images/js.png")}
+                            {...PropCircular(90, "Assets/Images/js.png")}
                           />
                           <p
                             style={{

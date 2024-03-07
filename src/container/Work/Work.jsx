@@ -18,25 +18,25 @@ const Work = () => {
       title: "TUGVAN",
       framework: "MERN",
       description: "Web Application",
-      imgsrc: "/Assets/Images/tugvan.png",
+      imgsrc: "Assets/Images/tugvan.png",
     },
     {
       title: "Servemax",
       framework: "React",
       description: "Single Page Website",
-      imgsrc: "/Assets/Images/Servemax.png",
+      imgsrc: "Assets/Images/Servemax.png",
     },
     {
       title: "Fleetily",
       framework: "HTML/CSS/JS",
       description: "Complete Website 5+ Pages",
-      imgsrc: "/Assets/Images/Fleetily.png",
+      imgsrc: "Assets/Images/Fleetily.png",
     },
     {
       title: "Royal Tag",
       framework: "Mern",
       description: "Cloned E-Commerce Website",
-      imgsrc: "/Assets/Images/royaltag.png",
+      imgsrc: "Assets/Images/royaltag.png",
     },
   ];
 
